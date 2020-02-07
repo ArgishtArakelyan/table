@@ -317,9 +317,8 @@ a {
 .table_wrap {
   padding: 48px 0;
   width: 100%;
-  max-width: 1440px;
-  margin: auto;
-  padding-right: 100px; }
+  max-width: 1600px;
+  margin: auto; }
   .table_wrap .title {
     color: #334152;
     font-size: 24px;
@@ -338,6 +337,7 @@ tr:first-child td {
 
 th,
 td {
+  vertical-align: inherit !important;
   padding: 24px 0 !important; }
   th:nth-child(3),
   td:nth-child(3) {
@@ -362,14 +362,10 @@ td {
   border-radius: 6px;
   box-shadow: 0px 6px 24px #c7c7c7, 0px 0px 1px rgba(107, 108, 111, 0.24); }
   .t_wrap .sell_now {
-    position: absolute;
-    left: 100%;
-    padding-left: 16px;
-    top: 64px;
-    width: 100px;
     color: #047bf8 !important;
     font-weight: 600;
-    cursor: pointer; }
+    cursor: pointer;
+    padding-left: 24px !important; }
 
 table {
   border: 0 !important; }
@@ -379,7 +375,8 @@ table {
   height: 20px;
   border-radius: 6px;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  margin-bottom: 6px; }
   .range div {
     background: #047bf8;
     position: absolute;
